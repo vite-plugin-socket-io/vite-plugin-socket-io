@@ -1,0 +1,29 @@
+{
+  "name": "@bobthered/vite-plugin-socket.io",
+  "version": "1.0.0",
+  "description": "Plugin to add socket.io to a Vite server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobthered/vite-plugin-socket.io.git"
+  },
+  "keywords": [
+    "vite-plugin",
+    "socket.io",
+    "socket",
+    "socketio",
+    "vite"
+  ],
+  "author": "Bob McAleavey <bobmcaleavey@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bobthered/vite-plugin-socket.io/issues"
+  },
+  "homepage": "https://github.com/bobthered/vite-plugin-socket.io#readme",
+  "dependencies": {
+    "socket.io": "^4.4.0"
+  }
+}
