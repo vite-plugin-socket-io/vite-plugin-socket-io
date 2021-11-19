@@ -1,6 +1,6 @@
 {
   "name": "@bobthered/vite-plugin-socket.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Plugin to add socket.io to a Vite server",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,6 @@
   "homepage": "https://github.com/bobthered/vite-plugin-socket.io#readme",
   "dependencies": {
     "socket.io": "^4.4.0"
-  }
+  },
+  "type": "module"
 }
