@@ -20,9 +20,11 @@ export default defineConfig({
 })
 ```
 
-## Props
-- [`serverEvents`](./serverEvents)
-- [`socketEvents`](./socketEvents)
+## Options
+### serverEvents
+Function to run when initializing socket.io connection.  Check docs [here](./serverEvents/).
+### socketEvents
+Function to run containing socket.io listener and emitters.  Check docs [here](./socketEvents/).
 
 ## Additional Usage Examples
 ### Add listeners
