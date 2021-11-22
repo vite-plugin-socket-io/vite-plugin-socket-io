@@ -5,14 +5,14 @@ Plugin to add [socket.io](https://socket.io/) to a Vite server
 
 ## Installation
 ```
-npm i -D @bobthered/vite-plugin-socket.io
+npm i -D vite-plugin-socket.io
 ```
 
 ## Basic Usage
 ```js
 // vite.config.js
 
-import vitePluginSocketIO from '@bobthered/vite-plugin-socket.io'
+import vitePluginSocketIO from 'vite-plugin-socket.io'
 import { defineConfig } from 'vite';
 
 export default defineConfig({
@@ -32,7 +32,7 @@ Function to run containing socket.io listener and emitters.  Check docs [here](.
 ```js
 // vite.config.js
 
-import vitePluginSocketIO from '@bobthered/vite-plugin-socket.io'
+import vitePluginSocketIO from 'vite-plugin-socket.io'
 import { defineConfig } from 'vite';
 
 const socketEvents = (io, socket) => {
