@@ -5,7 +5,7 @@ Plugin to add [socket.io](https://socket.io/) to a Vite server
 
 ## Installation
 ```
-npm i -D vite-plugin-socket.io
+npm i -D vite-plugin-socket-io
 ```
 
 ## Basic Usage
