@@ -32,7 +32,7 @@ Function to run containing socket.io listener and emitters.  Check docs [here](.
 ```js
 // vite.config.js
 
-import vitePluginSocketIO from 'vite-plugin-socket.io'
+import vitePluginSocketIO from 'vite-plugin-socket-io'
 import { defineConfig } from 'vite';
 
 const socketEvents = (io, socket) => {
